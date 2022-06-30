@@ -1,0 +1,44 @@
+html
+{
+    height: 100%;
+    width: 100%;
+    font-size: 50%;
+}
+body
+{
+    background-color: black;
+    background-size:190vh;
+}
+.logbox
+{
+    position:absolute;
+    right:50%;
+    bottom:50%;
+    transform: translate(50%,50%);
+    background-color: rgba(0,0,0,0.5);
+    padding: 3vw;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+.title
+{
+    height: fit-content;
+    width: fit-content;
+    font-size: 32px;
+    color:blueviolet;
+    text-shadow: 5px 5px 5px rgb(0,0,0);
+}
+input[type="username"],input[type="password"]
+{
+    width: 15vh;
+    height: 0.1vw;
+    display:block;
+    padding: 2vh;
+    margin-top: 3vh;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-color: blueviolet;
+    border-radius: 5px;
+    background-color: black;
+}
